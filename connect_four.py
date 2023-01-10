@@ -37,6 +37,7 @@ class Game:
         self.board = Board(width, height, consecutive_to_win, generic_win_condition)
         self.max_columns = width
 
+    # Ignore: I would've used this if I wanted an interactive input from user.
     # def play_game(self) -> GameWinner:
     #     color = GridState.RED
     #     while True:
